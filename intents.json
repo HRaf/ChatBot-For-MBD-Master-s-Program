@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "coordinator",
+         "patterns": ["Who is the coordinator of MBD Master program  ?", "What's the name of the coordinator ? ", "Did you know the coordinator of this master program ?", "coordintor name"],
+         "responses": ["Pr. Mohamed BEN AHMED "],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","I appreciate your help,thamks."],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Can you be more clear please ?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","How can you assist me ?","What kind of assistance you provide ?"],
+         "responses": ["I can provide you informations about MBD Master Program.","If you are looking to know something about MBD Master Program ,please let me know.","I am Here to help you to know everything about MBD Master Program."],
+         "context": [""]
+        },
+        {"tag": "CareerOpportunities",
+         "patterns": ["Career  Opportunities ?","What are Career  Opportunities of MBD Master program ?","outlets MBD Master program ?","Possible job after graduation ?" ],
+         "responses": ["Datascientist , Big Data Architecte , Big Data Analyst , Data Engineer , DBA , Mobile Developer "],
+         "context": [""]
+        },
+        {"tag": "keycourses",
+         "patterns": ["What are the key courses of MBD Master program ?", "key courses ?", "Program courses ?", "Courses examples of MBD Mater program " ,"What are the major courses of MBD Master program ? "],
+         "responses": ["Object Oriented Programming (Python/Java), Machine Learning , Data Mining, Cloud computing and Virtualization, Big Data Analytics. ","Machine Learning , Big Data and Security , Mobile Dev , Analysis, Mining and Indexing In Big Multimedia Systems, Soft Skills."],
+         "context": [""]
+        },
+        {"tag": "applying",
+         "patterns": ["Who can apply ?","Applying to MBD Master program","Conditions to apply ?","Application Requirements ?","Who are eligible to apply ?" ],
+         "responses": ["Candidates with a three-year degree (License) in Mathematics and/or Computer Science, are eligible to apply.", "Students who have a Bachelor degree (Bac+3) in Mathematics and/or Computer Science, are eligible to apply.","To apply, The student should have a bachelor or equivalent in Mathematics and/or Computer Science."],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "classsize",
+         "patterns": ["How many students could be in the class ?","class size","What is the number of students in the class ?"],
+         "responses": ["In most case 24 or less"],
+         "context": [""]
+        },
+        {"tag": "subjects",
+         "patterns": ["How many modules are programmed for each semester ?","number of subjects in each semester","How many subjects exists in each semester ?","number of subjects and modules ?"],
+         "responses": ["The Program contains 6 subjects in each semester, except the last one (S4) the student must find an intership to complete their studies"],
+         "context": [""]
+        },
+    {"tag": "bootname",
+         "patterns": ["What is your name ?","Your name please ?","could you tell me your name please ?"],
+         "responses": ["I am MBD ChatBoot, and I am here to assist you in anyway I can."],
+         "context": [""]
+        },
+    {"tag": "bootname",
+         "patterns": ["What is your name ?","Your name please ?","could you tell me your name please ?"],
+         "responses": ["I am MBD ChatBoot, and I am here to assist you in anyway I can."],
+         "context": [""]
+        }
+    ]
+        
+        
+        
+        
+   
+}
